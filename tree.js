@@ -25,7 +25,7 @@ const renderTree = (n) => {
     const newAcc = `${newLine}\n${acc}`;
 
     return render(currentLvl + 1, [start + 1, finish - 1], newAcc);
-  }
+  };
 
-  return render(0, [0, width - 1], ``);
-}
+  console.log(render(0, [0, width - 1], ``));
+};
